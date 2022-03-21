@@ -1,0 +1,92 @@
+/*
+ table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
+
+tr:nth-child(even) {
+    background-color: white;
+} */
+
+.fa-volume-up, .fa-trash, .fa-pencil {
+  color: black;
+}
+
+/* here */
+#words-1{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  color: #003566; /*navy blue */
+}
+
+#words-1 td, #words-1 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: #003566; /*navy blue */
+}
+
+#words-1 tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+#words-1 tr:hover {background-color: #ddd;}
+
+#words-1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #5c578c; /*  purple */
+  color: white;
+}
+      /* CSS comes here */
+      #body {
+          font-family:arial;
+      }
+      #input {
+          padding: 10px;
+          width: 300px;
+          border-radius: 5px;
+          border: solid 2px #BBB;
+      }
+      #div {
+          margin:10px 0px;
+      }
+   button {
+  background-color:#57cc99;  /*green*/
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+p{
+  text-align: justify;
+}
+.parent{
+  text-align: center;
+  
+ }
+ .parent > ul { /* li? */
+  display: inline-block;
+  text-align: justify;
+  font-weight: bold; 
+  /*position: absolute; - dia akan display ke kanan */ 
+ }
+ h2{
+  font-weight: bold;
+ }
